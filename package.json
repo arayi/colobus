@@ -1,0 +1,26 @@
+{
+  "name": "colobus",
+  "version": "1.0.0",
+  "description": "lg week 2 npm package for common js functions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arayi/colobus.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arayi/colobus/issues"
+  },
+  "homepage": "https://github.com/arayi/colobus#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "chai": "^3.5.0",
+    "lodash": "^4.16.2",
+    "mocha": "^3.0.2"
+  }
+}
