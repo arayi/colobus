@@ -1,23 +1,18 @@
+
 import { expect } from 'chai'
 import head from '../functions/head'
 
-describe.only( 'head', () => {
-  it('returns the first element of an array', () => {
+describe( 'head', () => {
+  it('returns the first element of an array or string', (done) => {
     expect( head([1,2,3]) ).to.eql( 1 )
-  })
-  it('returns the first element of a string', () => {
     expect( head('asdf') ).to.eql( 'a' )
+    done()
   })
 
-  it('returns undefined when passed an empty array', () => {
+  it('returns undefined when passed [], \'\', or an object', (done) => {
     expect( head([]) ).to.eql( undefined )
-  })
-
-  it('returns undefined when passed an empty string', () => {
     expect( head('') ).to.eql( undefined )
-  })
-
-  it('returns undefined when passed an object', () => {
     expect( head('') ).to.eql( undefined )
+    done()
   })
 })
