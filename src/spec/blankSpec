@@ -1,0 +1,10 @@
+import { expect } from 'chai'
+import functionName from '../functions/functionName'
+
+describe( 'functionName', () => {
+
+  it('performs a function', () => {
+    expect( functionName(arg) ).to.eql( true )
+  })
+
+})
