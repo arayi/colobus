@@ -1,7 +1,6 @@
 
 const identity = (arg) => {
    return arg
-
 }
 
 

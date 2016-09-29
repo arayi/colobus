@@ -1,13 +1,12 @@
 
 const initial = (arr) => {
 var arr = arr
-var argIsString = typeof arr === 'string'
 
-  if (argIsString) {
+  if (typeof arr === 'string') {
     arr = arr.split('')
   }
 
-  if (Array.isArray(arr) && arr.pop()) {
+  if (Array.isArray(arr) && arr.pop() ) {
     return arr
   } else {
     return undefined

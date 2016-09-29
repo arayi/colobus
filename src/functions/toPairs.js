@@ -1,4 +1,4 @@
-const toPairs = obj => {
+const toPairs = (obj) => {
   const array = []
 
   for ( let key in obj ) {
