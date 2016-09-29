@@ -1,5 +1,4 @@
 const round = (number, precision=0) => {
-  let number = number
 
   if (typeof number !== 'number' && typeof number !== 'string') {
     return NaN
