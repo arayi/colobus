@@ -1,11 +1,12 @@
 const flatten = (arr) => {
-  var newArray = []
-  if(Array.isArray(arr) || typeof arr === "string") {
+  const newArray = []
+
+  if (Array.isArray(arr) || typeof arr === "string") {
     for (let i of arr) {
-      if(!Array.isArray(i)){
+      if (!Array.isArray(i) ) {
       newArray.push(i)
       } else {
-        for(let j of i){
+        for (let j of i) {
         newArray.push(j)
         }
       }

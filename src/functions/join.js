@@ -1,5 +1,7 @@
-const join = (array, separator, result = "") => {
-  if(Array.isArray(array)) {
+const join = (array, separator) => {
+  let result = ''
+
+  if (Array.isArray(array) ) {
     for (let i = 0; i < array.length; i++){
       if (array[i+1] === undefined) {
         result += array[i]

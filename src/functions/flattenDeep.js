@@ -1,24 +1,17 @@
-const flattenDeep = (arr) =>
-{
-  var finalArray = []
+const flattenDeep = (arr) => {
+  const finalArray = []
 
-  helper(finalArray, arr)
+  recurseThroughTree(finalArray, arr)
 
-  return finalArray;
+  return finalArray
 }
 
-const helper = (finalArray, arr) =>
-{
-  if(Array.isArray(arr))
-  {
-    for (var element of arr)
-    {
-      if(Array.isArray(element))
-      {
-        helper(finalArray, element)
-      }
-      else
-      {
+const recurseThroughTree = (finalArray, arr) => {
+  if (Array.isArray(arr) ) {
+    for (let element of arr) {
+      if (Array.isArray(element) ) {
+        recurseThroughTree(finalArray, element)
+      } else {
         finalArray.push(element)
       }
     }
