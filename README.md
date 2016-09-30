@@ -5,7 +5,7 @@ Create a library of at least 20 commonly used Lodash methods with documentation 
 ## Context
 
 This goal is important for:
-- learning JavaScript 
+- learning JavaScript
 - understanding how developer write higher-level code for others to use
 - understanding ES2015
 
@@ -19,18 +19,18 @@ The questions that this project will raise are:
 
 ### Required
 
-- [ ] Includes a list of commonly used methods to rewrite in ES2015 (minimum 20).
-- [ ] Includes a README that describes each method and provides an example of use. 
-- [ ] Package is published with NPM.
-- [ ] Includes tests for all methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] Includes a list of commonly used methods to rewrite in ES2015 (minimum 20).
+- [X] Includes a README that describes each method and provides an example of use.
+- [X] Package is published with NPM.
+- [X] Includes tests for all methods described.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Quality
 
-- [ ] Each individual function is self-documenting using intuitive names with a matching file name. (e.g., function map corresponds to map.js)
-- [ ] Each function is imported into a single file.
-- [ ] The main file is organized hierarchically into "chapters." (e.g. "1. Single-line helper functions")
-- [ ] Branch names and commit messages are descriptive.
+- [X] Each individual function is self-documenting using intuitive names with a matching file name. (e.g., function map corresponds to map.js)
+- [X] Each function is imported into a single file.
+- [X] The main file is organized hierarchically into "chapters." (e.g. "1. Single-line helper functions")
+- [X] Branch names and commit messages are descriptive.
 
 ---
 

@@ -22,16 +22,11 @@ describe( 'round', () => {
     expect( round("354.44", -1) ).to.eq( 350 )
   })
 
-  it('it should return NaN for all other cases', () => {
+  it('it should return NaN for all other cases', (done) => {
     expect( round({}).NaN)
-  })
-
-  it('it should return NaN for all other cases', () => {
     expect( round([]).NaN)
-  })
-
-  it('it should return NaN for all other cases', () => {
     expect( round(null).NaN)
+    done()
   })
-
+  
 })
