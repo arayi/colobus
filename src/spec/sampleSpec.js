@@ -2,10 +2,10 @@ import { expect } from 'chai'
 import sample from '../functions/sample'
 
 describe( 'sample', () => {
-  // TODO: FIX THIS FUNCTION - It returns random output, how do we use
-  // chai to accept one of multiple answers as correct?
+  let testData = [1, 'pony', {a: "answer"}]
+
   it('it samples to nearest integer (up)', () => {
-    expect( sample([5]) ).to.eql( 5 )
+    expect( testData.indexOf(sample(testData)) !== -1 ).to.eql( true )
   })
 
 })
