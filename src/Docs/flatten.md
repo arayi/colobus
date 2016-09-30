@@ -2,10 +2,6 @@
 
 ## Function Description
 
-```
-_c.flatten(array)
-```
-
 Flattens array a single level deep.
 
 ## Function Technical Explanation
