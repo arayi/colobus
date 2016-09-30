@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.toPairs()
+_c.toPairs(object)
 ```
 
 Creates an array of own enumerable string keyed-value pairs for object which can be consumed by fromPairs. If object is a map or set, its entries are returned.

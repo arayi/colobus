@@ -1,8 +1,10 @@
-# functionName
+# stubFalse
 
 ## Function Description
 
-```_c.stubFalse()```
+```javascript
+_c.stubFalse()
+```
 
 This method returns false.
 
@@ -18,7 +20,7 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubFalse);
 // => [false, false]
 ```

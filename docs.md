@@ -1,8 +1,8 @@
-# functionName
+# add
 
 ## Function Description
 
-```
+```javascript
 _c.add(augend, addend)
 ```
 
@@ -22,16 +22,16 @@ addend (Number): The other number to add.
 
 ## Example
 
-```
+```javascript
 _c.add(6, 15) // returns 21
 ```
 
 
-# functionName
+# fill
 
 ## Function Description
 
-```
+```javascript
 _c.fill(array, value, [start=0], [end=array.length])
 ```
 
@@ -54,7 +54,7 @@ value (*): The value to fill array with.
 
 ## Example
 
-```
+```javascript
 var array = [1, 2, 3];
 
 _c.fill(array, 'a');
@@ -69,11 +69,11 @@ _c.fill([4, 6, 8, 10], '*', 1, 3);
 ```
 
 
-# functionName
+# flatMap
 
 ## Function Description
 
-```
+```javascript
 _c.flatMap(collection, [iteratee=_.identity])
 ```
 
@@ -92,7 +92,7 @@ collection (Array|Object): The collection to iterate over.
 
 ## Example
 
-```
+```javascript
 function duplicate(n) {
   return [n, n];
 }
@@ -107,7 +107,7 @@ _c.flatMap([1, 2], duplicate);
 ## Function Description
 
 ```javascript
-_c.flatten()
+_c.flatten(array)
 ```
 
 Flattens array a single level deep.
@@ -123,13 +123,13 @@ Returns
 
 ## Example
 
-```javascript  
+```javascript
 _.flatten([1, [2, [3, [4]], 5]]);
 // => [1, 2, [3, [4]], 5]
 ```
 
 
-# Flatten Deep
+# flattenDeep
 
 ## Function Description
 
@@ -155,39 +155,12 @@ _c.flattenDeep([1, [2, [3, [4]], 5]]);
 ```
 
 
-# fromPairs
-
-## Function Description
-
-```javascript
-_c.fromPairs()
-```
-
-The inverse of toPairs; this method returns an object composed from key-value pairs.
-
-## Function Technical Explanation
-
-Arguments
-
-pairs (Array): The key-value pairs.
-Returns
-
-(Object): Returns the new object.
-
-## Example
-
-```javascript
-_c.fromPairs([['a', 1], ['b', 2]]);
-// => { 'a': 1, 'b': 2 }
-```
-
-
 # head
 
 ## Function Description
 
 ```javascript
-_c.head()
+_c.head(array)
 ```
 
 Gets the first element of array.
@@ -212,12 +185,39 @@ _c.head([]);
 ```
 
 
+# fromPairs
+
+## Function Description
+
+```javascript
+_c.fromPairs(array)
+```
+
+The inverse of toPairs; this method returns an object composed from key-value pairs.
+
+## Function Technical Explanation
+
+Arguments
+
+pairs (Array): The key-value pairs.
+Returns
+
+(Object): Returns the new object.
+
+## Example
+
+```javascript
+_c.fromPairs([['a', 1], ['b', 2]]);
+// => { 'a': 1, 'b': 2 }
+```
+
+
 # identity
 
 ## Function Description
 
 ```javascript
-_c.identity()
+_c.identity(value)
 ```
 
 This method returns the first argument it receives.
@@ -245,7 +245,7 @@ console.log(_c.identity(object) === object);
 ## Function Description
 
 ```javascript
-_c.initial()
+_c.initial(array)
 ```
 
 Gets all but the last element of array.
@@ -267,12 +267,39 @@ _c.initial([1, 2, 3]);
 ```
 
 
+# last
+
+## Function Description
+
+```javascript
+_c.last(array)
+```
+
+Gets the last element of array.
+
+## Function Technical Explanation
+
+Arguments
+
+array (Array): The array to query.
+Returns
+
+Returns the last element of array.
+
+## Example
+
+```javascript
+_c.last([1, 2, 3]);
+// => 3
+```
+
+
 # join
 
 ## Function Description
 
 ```javascript
-_c.join()
+_c.join(array)
 ```
 
 Converts all elements in array into a string separated by separator.
@@ -295,39 +322,12 @@ _c.join(['a', 'b', 'c'], '~');
 ```
 
 
-# last
-
-## Function Description
-
-```javascript
-_c.last()
-```
-
-Gets the last element of array.
-
-## Function Technical Explanation
-
-Arguments
-
-array (Array): The array to query.
-Returns
-
-Returns the last element of array.
-
-## Example
-
-```javascript
-_c.last([1, 2, 3]);
-// => 3
-```
-
-
 # round
 
 ## Function Description
 
 ```javascript
-_c.round()
+_c.round(number)
 ```
 
 Computes number rounded to precision.
@@ -356,11 +356,13 @@ _c.round(4060, -2);
 ```
 
 
-# functionName
+# sample
 
 ## Function Description
 
-```_c.sample(collection)````
+```javascript
+_c.sample(collection)
+```
 
 Gets a random element from collection.
 
@@ -382,11 +384,13 @@ _c.sample([1, 2, 3, 4]);
 ```
 
 
-# functionName
+# stubArray
 
 ## Function Description
 
-```_c.stubArray()```
+```javascript
+_c.stubArray()
+```
 
 This method returns a new empty array.
 
@@ -402,7 +406,7 @@ none
 
 ## Example
 
-```
+```javascript
 var arrays = _.times(2, _c.stubArray);
 
 console.log(arrays);
@@ -413,11 +417,13 @@ console.log(arrays[0] === arrays[1]);
 ```
 
 
-# functionName
+# stubFalse
 
 ## Function Description
 
-```_c.stubFalse()```
+```javascript
+_c.stubFalse()
+```
 
 This method returns false.
 
@@ -433,17 +439,50 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubFalse);
 // => [false, false]
 ```
 
 
-# functionName
+# stubObject
 
 ## Function Description
 
+```javascript
+_c.stubObject()
 ```
+
+This method returns a new empty object.
+
+## Function Technical Explanation
+
+**Arguments**
+
+none
+
+**Returns**
+
+(Object): Returns the new empty object.
+
+## Example
+
+```javascript
+var objects = _.times(2, _c.stubObject);
+
+console.log(objects);
+// => [{}, {}]
+
+console.log(objects[0] === objects[1]);
+// => false
+```
+
+
+# stubString
+
+## Function Description
+
+```javascript
 _c.stubString()
 ```
 
@@ -461,48 +500,17 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubString);
 // => ['', '']
 ```
 
 
-# functionName
+# stubTrue
 
 ## Function Description
 
-```_c.stubObject()```
-
-This method returns a new empty object.
-
-## Function Technical Explanation
-
-**Arguments**
-
-none
-
-**Returns**
-
-(Object): Returns the new empty object.
-
-## Example
-
-```
-var objects = _.times(2, _c.stubObject);
-
-console.log(objects);
-// => [{}, {}]
-
-console.log(objects[0] === objects[1]);
-// => false
-```
-
-
-# functionName
-
-## Function Description
-
-```
+```javascript
 _c.stubTrue()
 ```
 
@@ -520,7 +528,7 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubTrue);
 // => [true, true]
 ```
@@ -529,6 +537,10 @@ _.times(2, _c.stubTrue);
 # zip
 
 ## Function Description
+
+```javascript
+_c.zip([arrays])
+```
 
 Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
 
@@ -554,7 +566,7 @@ _c.zip(['a', 'b'], [1, 2], [true, false]);
 ## Function Description
 
 ```javascript
-_c.toPairs()
+_c.toPairs(object)
 ```
 
 Creates an array of own enumerable string keyed-value pairs for object which can be consumed by fromPairs. If object is a map or set, its entries are returned.

@@ -1,8 +1,8 @@
-# functionName
+# fill
 
 ## Function Description
 
-```
+```javascript
 _c.fill(array, value, [start=0], [end=array.length])
 ```
 
@@ -25,7 +25,7 @@ value (*): The value to fill array with.
 
 ## Example
 
-```
+```javascript
 var array = [1, 2, 3];
 
 _c.fill(array, 'a');

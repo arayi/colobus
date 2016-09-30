@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.flatten()
+_c.flatten(array)
 ```
 
 Flattens array a single level deep.
@@ -19,7 +19,7 @@ Returns
 
 ## Example
 
-```javascript  
+```javascript
 _.flatten([1, [2, [3, [4]], 5]]);
 // => [1, 2, [3, [4]], 5]
 ```

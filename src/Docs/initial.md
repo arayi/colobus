@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.initial()
+_c.initial(array)
 ```
 
 Gets all but the last element of array.

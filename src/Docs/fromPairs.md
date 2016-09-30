@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.fromPairs()
+_c.fromPairs(array)
 ```
 
 The inverse of toPairs; this method returns an object composed from key-value pairs.

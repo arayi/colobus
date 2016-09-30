@@ -1,8 +1,8 @@
-# functionName
+# stubString
 
 ## Function Description
 
-```
+```javascript
 _c.stubString()
 ```
 
@@ -20,7 +20,7 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubString);
 // => ['', '']
 ```

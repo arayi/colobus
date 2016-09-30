@@ -1,8 +1,8 @@
-# functionName
+# stubTrue
 
 ## Function Description
 
-```
+```javascript
 _c.stubTrue()
 ```
 
@@ -20,7 +20,7 @@ none
 
 ## Example
 
-```
+```javascript
 _.times(2, _c.stubTrue);
 // => [true, true]
 ```

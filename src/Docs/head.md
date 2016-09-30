@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.head()
+_c.head(array)
 ```
 
 Gets the first element of array.

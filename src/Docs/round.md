@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.round()
+_c.round(number)
 ```
 
 Computes number rounded to precision.

@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.identity()
+_c.identity(value)
 ```
 
 This method returns the first argument it receives.
