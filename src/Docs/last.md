@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.last()
+_c.last(array)
 ```
 
 Gets the last element of array.

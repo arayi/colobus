@@ -1,8 +1,10 @@
-# functionName
+# sample
 
 ## Function Description
 
-```_c.sample(collection)````
+```javascript
+_c.sample(collection)
+```
 
 Gets a random element from collection.
 

@@ -1,8 +1,8 @@
-# functionName
+# flatMap
 
 ## Function Description
 
-```
+```javascript
 _c.flatMap(collection, [iteratee=_.identity])
 ```
 
@@ -21,7 +21,7 @@ collection (Array|Object): The collection to iterate over.
 
 ## Example
 
-```
+```javascript
 function duplicate(n) {
   return [n, n];
 }

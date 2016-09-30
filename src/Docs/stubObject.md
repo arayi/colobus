@@ -1,8 +1,10 @@
-# functionName
+# stubObject
 
 ## Function Description
 
-```_c.stubObject()```
+```javascript
+_c.stubObject()
+```
 
 This method returns a new empty object.
 
@@ -18,7 +20,7 @@ none
 
 ## Example
 
-```
+```javascript
 var objects = _.times(2, _c.stubObject);
 
 console.log(objects);

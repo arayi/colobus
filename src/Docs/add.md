@@ -1,8 +1,8 @@
-# functionName
+# add
 
 ## Function Description
 
-```
+```javascript
 _c.add(augend, addend)
 ```
 
@@ -22,6 +22,6 @@ addend (Number): The other number to add.
 
 ## Example
 
-```
+```javascript
 _c.add(6, 15) // returns 21
 ```

@@ -1,4 +1,4 @@
-# Flatten Deep
+# flattenDeep
 
 ## Function Description
 

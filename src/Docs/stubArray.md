@@ -1,8 +1,10 @@
-# functionName
+# stubArray
 
 ## Function Description
 
-```_c.stubArray()```
+```javascript
+_c.stubArray()
+```
 
 This method returns a new empty array.
 
@@ -18,7 +20,7 @@ none
 
 ## Example
 
-```
+```javascript
 var arrays = _.times(2, _c.stubArray);
 
 console.log(arrays);

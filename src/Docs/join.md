@@ -3,7 +3,7 @@
 ## Function Description
 
 ```javascript
-_c.join()
+_c.join(array)
 ```
 
 Converts all elements in array into a string separated by separator.
