@@ -29,7 +29,8 @@ The questions that this project will raise are:
 
 - [X] Each individual function is self-documenting using intuitive names with a matching file name. (e.g., function map corresponds to map.js)
 - [X] Each function is imported into a single file.
-- [X] The main file is organized hierarchically into "chapters." (e.g. "1. Single-line helper functions")
+- [X] The main file is organized imperatively via script (see _c.js).
+- [X] The documentation is organized imperatively via script (see joinDocs.js and docs.md).
 - [X] Branch names and commit messages are descriptive.
 
 ---
