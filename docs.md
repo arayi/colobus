@@ -1,3 +1,14 @@
+# Installation and usage
+
+```
+npm install colobus
+```
+
+Then, in your project JavaScript file(s):
+```
+var _c = require('colobus')
+```
+
 # add
 
 ## Function Description
