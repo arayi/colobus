@@ -8,9 +8,11 @@ const getFiles = (dir) => {
   let output = {}
   var files = fs.readdirSync(dir)
   files.forEach(fileName => {
-    let functionName = fileName.replace('.js', '')
-    let exports = require('./functions/' + functionName)
-    output[functionName] = exports.__esModule ? exports.default : exports
+    if (fileName != 'blankSpec') {
+      let functionName = fileName.replace('.js', '')
+      let exports = require('./functions/' + functionName)
+      output[functionName] = exports.__esModule ? exports.default : exports
+    }
   })
   return output
 }
