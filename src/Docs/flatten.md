@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.flatten()
+```
+
 Flattens array a single level deep.
 
 ## Function Technical Explanation

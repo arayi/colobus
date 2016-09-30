@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.head()
+```
+
 Gets the first element of array.
 
 ## Function Technical Explanation
@@ -16,9 +20,9 @@ Returns the first element of array.
 ## Example
 
 ```javascript
-_.head([1, 2, 3]);
+_c.head([1, 2, 3]);
 // => 1
 
-_.head([]);
+_c.head([]);
 // => undefined
 ```
