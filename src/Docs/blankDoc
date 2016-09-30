@@ -2,7 +2,9 @@
 
 ## Function Description
 
-```_c.functionName()```
+```javascript
+_c.functionName()
+```
 
 Performs a function.
 
