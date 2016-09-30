@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.identity()
+```
+
 This method returns the first argument it receives.
 
 ## Function Technical Explanation
@@ -17,6 +21,6 @@ Returns: Returns value.
 ```javascript
 var object = { 'a': 1 };
 
-console.log(_.identity(object) === object);
+console.log(_c.identity(object) === object);
 // => true
 ```

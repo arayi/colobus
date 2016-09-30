@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.last()
+```
+
 Gets the last element of array.
 
 ## Function Technical Explanation
@@ -16,6 +20,6 @@ Returns the last element of array.
 ## Example
 
 ```javascript
-_.last([1, 2, 3]);
+_c.last([1, 2, 3]);
 // => 3
 ```

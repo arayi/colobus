@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.fromPairs()
+```
+
 The inverse of toPairs; this method returns an object composed from key-value pairs.
 
 ## Function Technical Explanation
@@ -16,6 +20,6 @@ Returns
 ## Example
 
 ```javascript
-_.fromPairs([['a', 1], ['b', 2]]);
+_c.fromPairs([['a', 1], ['b', 2]]);
 // => { 'a': 1, 'b': 2 }
 ```

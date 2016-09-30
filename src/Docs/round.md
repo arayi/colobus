@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.round()
+```
+
 Computes number rounded to precision.
 
 ## Function Technical Explanation
@@ -17,12 +21,12 @@ Returns
 ## Example
 
 ```javascript
-_.round(4.006);
+_c.round(4.006);
 // => 4
 
-_.round(4.006, 2);
+_c.round(4.006, 2);
 // => 4.01
 
-_.round(4060, -2);
+_c.round(4060, -2);
 // => 4100
 ```
