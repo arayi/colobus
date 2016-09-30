@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.join()
+```
+
 Converts all elements in array into a string separated by separator.
 
 ## Function Technical Explanation
@@ -17,6 +21,6 @@ Returns
 ## Example
 
 ```javascript
-_.join(['a', 'b', 'c'], '~');
+_c.join(['a', 'b', 'c'], '~');
 // => 'a~b~c'
 ```

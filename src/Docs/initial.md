@@ -2,6 +2,10 @@
 
 ## Function Description
 
+```javascript
+_c.initial()
+```
+
 Gets all but the last element of array.
 
 ## Function Technical Explanation
@@ -16,6 +20,6 @@ Returns
 ## Example
 
 ```javascript
-_.initial([1, 2, 3]);
+_c.initial([1, 2, 3]);
 // => [1, 2]
 ```

@@ -2,7 +2,7 @@
 
 ## Function Description
 
-```
+```javascript
 _c.flattenDeep(array)
 ```
 
@@ -19,6 +19,6 @@ Returns
 
 ## Examples:
 ```javascript
-_.flattenDeep([1, [2, [3, [4]], 5]]);
+_c.flattenDeep([1, [2, [3, [4]], 5]]);
 // => [1, 2, 3, 4, 5]
 ```
