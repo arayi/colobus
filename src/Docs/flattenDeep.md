@@ -2,10 +2,6 @@
 
 ## Function Description
 
-```
-_c.flattenDeep(array)
-```
-
 Recursively flattens an array of arrays within arrays into a simple array.
 
 ## Function Technical Explanantion
